@@ -1,0 +1,56 @@
+
+/*Muestra el ejemplo de como centrar elemetos con una grilla*/
+.wrapper {
+  background-image: url(https://ep01.epimg.net/verne/imagenes/2017/11/09/articulo/1510239247_329890_1510242733_noticia_normal.jpg); 
+  border-image-outset: unset;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 100px; /*indico la cantidad de columnas que quiero y el tamanio de cada una*/ 
+  grid-gap: 10px; /*indico el espacio que tiene cada elemento*/
+  background-color: #fff;
+  color: #444;
+  margin: 40px;
+
+}
+
+.box {
+ 
+  background-color: #444;
+  color: #fff;
+  border-radius: 15px; /*convierte el elemento en tipo radio */
+  padding: 30px; /*aumenta el espacio q ocupa el elemento*/
+  font-size: 150%; /*alarga el elemento*/
+
+}
+
+
+/*css del login*/
+.all{
+  background: green;
+
+}
+.Formulario{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 500px;
+  grid-gap: 10px;
+  margin: 100px;
+}
+.centrarImagen{
+  display: flex;
+  justify-content: center;
+}
+.imagen{
+width: 150px;
+height: 150px; 
+
+}
+.bub{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 100px 100px;  
+  grid-gap:10px ;
+
+}
